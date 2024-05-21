@@ -4,7 +4,7 @@
 void setup() {
   M5.begin();
   M5.IMU.Init();
-
+  Serial.begin(115200);
   M5.Lcd.fillScreen(BLACK);
   M5.Lcd.setTextColor(WHITE);
   M5.Lcd.setRotation(4);
